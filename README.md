@@ -13,3 +13,8 @@ to get an appreciation for cpp's supposed speed with my own example to see for m
 
 
 changed keybindings as well for optmizied workflow toggling menus, is this a gateway drug to VIM??? lol
+
+
+
+will also be learning about cpp server side logic w/restapi
+#idontlikehtml

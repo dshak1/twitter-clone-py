@@ -121,7 +121,7 @@ public:
         if (following.find(followerId) == following.end()) {
             following[followerId] = {};
         }
-        // if not following, erase does nothing
+        // if not following then erase does nothing
         following[followerId].erase(followeeId);
     }
 
