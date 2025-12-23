@@ -211,8 +211,8 @@ def unfollow():
     return jsonify({"status": "success", "message": "Unfollowed user!"})
 
 if __name__ == '__main__':
-    print("🐍 Python Flask Twitter Server starting on http://localhost:5500")
-    print("🔬 Compare with C++ server at http://localhost:8080")
+    print("Python Flask Twitter Server starting on http://localhost:5500")
+    print("Compare with C++ server at http://localhost:8080")
     try:
         # Port 5500 is generally safe and not blocked by browsers (unlike 6000)
         app.run(host='0.0.0.0', port=5500, debug=False)

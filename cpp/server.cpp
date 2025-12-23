@@ -248,8 +248,9 @@ int main() {
         res.set_content("{\"status\":\"success\",\"message\":\"Unfollowed user\"}", "application/json");
     });
 
-    std::cout << "🚀 C++ Twitter Server starting on http://localhost:8080" << std::endl;
-    svr.listen("localhost", 8080);
+    std::cout << "🚀 C++ Twitter Server starting on http://127.0.0.1:8080 (binding to 0.0.0.0)" << std::endl;
+    // Bind to 0.0.0.0 so the server is reachable via 127.0.0.1 and other IPv4 interfaces
+    svr.listen("0.0.0.0", 8080);
 
     return 0;
 }

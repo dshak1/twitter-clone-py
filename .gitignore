@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+server.log
+py_server_pid
+
+# C++
+cpp/app
+cpp/twitter_server
+server_cpp.log
+server_pid
+
+# Virtual env
+.venv/
+
+# macOS
+.DS_Store
+
+# Node/npm
+node_modules/
