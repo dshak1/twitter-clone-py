@@ -37,7 +37,8 @@ class twitter:
 
         res = []
         while heap and len(res) < 10:
-            _, tid, uid, idx = heapq.heappop(heap)
+            _, tid, uid, idx = heapq.heappop(heap) # bro wtf u can name a variable _? is that some sort of general naming convention like th dunder init?
+            
             res.append(tid)
 
             idx -= 1
